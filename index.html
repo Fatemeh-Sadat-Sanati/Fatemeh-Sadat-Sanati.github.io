@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Fatemeh Sadat Sanati</h1>
-</body>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="resume.css">
+        <title>Fatemeh Sadat Sanati</title>
+    </head>
+    <body>
+        <header>
+        <h1>Fatemeh Sadat Sanati</h1>
+        <p id="position">Front-End Developer</p>
+        </header>
+        <section>
+        <h2>Summary</h2>
+        <img src="myphoto.jpg.jpg" alt="My profile photo">
+        <p class="summary"><img src="https://cdn2.iconfinder.com/data/icons/avatars-99/62/avatar-370-456322-512.png" width="80px" alt="">
+        I started learning web development since winter of 2023 and I am eager to gain more knowledge and experience in this field.</p>
+        </section>
+        <section>
+        <h2>Experience</h2>
+        <ul id="experience">
+            <li><b> Math Teacher </b> | 2019 - Present
+            </li>
+        </ul>
+        </section>
+        <section>
+        <h2>Skills</h2>
+        <table id="skills">
+            <tr><th>Skill</th><th>Level</th></tr>
+            <tr><td>HTML</td><td>Expert</td></tr>
+            <tr><td>CSS</td><td>Expert</td></tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+        </section>
+        <section>
+            <h2>Contact Form</h2>
+            <form action="mailto:fa.sanati99@gmail.com" method="post" id="contact-form">
+                <label for="name">Name: </label><input placeholder="Name" id="name" type="text" /><br>
+                <label for="email">Email: </label><input placeholder="Email" id="email" type="email" /><br>
+                <textarea placeholder="Message"></textarea><br>
+                <input type="submit" value="SEND">
+            </form>
+        </section>
+        <footer>
+        <h2>Contacts</h2>
+        <ul id="contacts">
+        <li><a href="https://www.sololearn.com/profile/25033582" target="_blank">Sololearn</a></li>
+        <li><a href="https://www.linkedin.com/in/fatemeh-sadat99/" target="_blank">LinkedIn</a></li>
+        <li>My Phone Number: +989154157121</li>
+        </ul>
+        <p id="copyright">Copyright &copy; Fatemeh Sadat Sanati</p>
+        </footer>
+    </body>
 </html>
