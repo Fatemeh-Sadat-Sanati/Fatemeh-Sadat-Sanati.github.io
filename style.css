@@ -101,7 +101,7 @@ input[type='submit'] {
   margin-bottom: 7px;
 } 
 
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 900px) {
     section img{
       width: 100px;
       height: 100px;
