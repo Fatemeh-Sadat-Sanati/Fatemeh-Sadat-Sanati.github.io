@@ -100,3 +100,12 @@ input[type='submit'] {
   color: white;
   margin-bottom: 7px;
 } 
+
+@media  screen and (max-width: 600px) {
+    section img {
+        width: 100px;
+        height: 100px;
+        
+        
+}
+
