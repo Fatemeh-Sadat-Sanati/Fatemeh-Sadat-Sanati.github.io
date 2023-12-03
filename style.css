@@ -102,11 +102,9 @@ input[type='submit'] {
 } 
 
 @media  screen and (max-width: 600px) {
-    section img {
-        width: 100px;
-        height: 100px;
-        
-        }
-        
+    section img{
+      width: 100px;
+      height: 100px;
+    }
 }
 
